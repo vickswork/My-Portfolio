@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'Over';
+    src: url(Fonts/Over\ There.ttf);
+}
+@font-face {
+    font-family: 'Futr';
+    src: url(Fonts/FUTRFW.TTF);
+}
+@font-face {
+    font-family: 'Revamped';
+    src: url(Fonts/Revamped.otf);
+}
+@font-face {
+    font-family: Sky;
+    src: url(Fonts/Skygraze.otf);
+}
+@font-face {
+    font-family: 'Deco';
+    src: url(Fonts/Market_Deco.ttf);
+}
+body{
+    background-image: url(image/mountains-55067.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 300px;
+    width: 1024px;
+}
+.name{
+    padding-top: 28px;
+    padding-left: 12px;
+    color: #8a2614;
+    font-family: Over;
+    font-size: 14px;
+    letter-spacing: 5px;
+    white-space: nowrap;
+}
+.contact{
+    padding-top: 45px;
+    padding-left: 640px;
+}
+.line{
+    width: 1024px;
+    height: 5px;
+    background-color: rgb(212, 212, 212);
+}
+header{
+    top: 0;
+    display: flex;
+    height: 90px;
+}
+.quote{
+    padding-top: 50px;
+    letter-spacing: 3px;
+    font-family: Sky;
+    font-size: 20px;
+    text-align: center;
+    position: sticky;
+    color: whitesmoke;
+}
+
+.cargo{
+    padding-top: 50px;
+    color: rgb(255, 255, 255);
+    justify-content: space-around;
+    display: flex;
+    font-family: futr;
+    text-align: center;
+    line-height: 200px;
+    font-size: 7px;
+}
+.box1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 250px;
+    width: 250px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.43881302521008403) 0%, rgba(255,70,37,0.469625350140056) 100%);
+    border-radius: 25px;
+    
+}
+.box2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 250px;
+    width: 250px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.43881302521008403) 0%, rgba(255,70,37,0.469625350140056) 100%);
+    border-radius: 25px;
+}
+.box3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 250px;
+    width: 250px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.43881302521008403) 0%, rgba(255,70,37,0.469625350140056) 100%);
+    border-radius: 25px;
+}
+.box4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 250px;
+    width: 250px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.43881302521008403) 0%, rgba(255,70,37,0.469625350140056) 100%);
+    border-radius: 25px;
+}.box1:hover{
+    transform: translateY(-50px);
+    transition: transform 1s;
+}
+.box2:hover{
+    transform: translateY(-50px);
+    transition: transform 1s;
+}
+.box3:hover{
+    transform: translateY(-50px);
+    transition: transform 1s;
+}
+.box4:hover{
+    transform: translateY(-50px);
+    transition: transform 1s;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.intro{
+    height: 200px;
+    text-align: center;
+    background: #F6F8F9;
+background: radial-gradient(circle farthest-corner at center center, #F6F8F9 0%, #E5EBEE 30%, #D7DEE3 60%, #F5F7F9 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+    font-family: Deco;
+    font-size: 30px;
+    justify-content: center;
+}
+.intro h3{
+font-family: Sky;
+font-size: 60px;
+background: #C74E22;
+background: linear-gradient(to right, #C74E22 0%, #3E8BCF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.work{
+    text-align: center;
+    background: #F6F8F9;
+background: radial-gradient(circle farthest-corner at center center, #F6F8F9 0%, #E5EBEE 30%, #D7DEE3 60%, #F5F7F9 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+    font-family: Deco;
+    font-size: 30px;
+    padding-top: 1px;
+}
+.work h3{
+font-family: Sky;
+font-size: 60px;
+background: #C74E22;
+background: linear-gradient(to right, #C74E22 0%, #3E8BCF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.description{
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+span:before{
+    content: '';
+    animation: animate infinite 8s;
+}
+ @keyframes animate {
+    0%{
+        content: 'Coder';
+    }
+    25%{
+        content: 'Freelancer';
+    }
+    50%{
+        content: 'Web Devloper';
+    }
+    75%{
+        content: 'Hodler';
+     }
+    100%{
+        content: 'Learner';
+    }
+    
+}
